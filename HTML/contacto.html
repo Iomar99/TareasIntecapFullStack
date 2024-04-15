@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        section, nav {
+            margin-bottom: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #d35400;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        img {
+            max-width: 150%;
+            height: auto;
+            border-radius: 5px;
+            
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+    </style>
+
+
+<nav style="height: 50px; background-color: #3498db; display: flex; justify-content: space-between; align-items: center; padding: 0 5%;">
+    <div style="display: flex; align-items: center;">
+        <a href="index.html" style="color: #fff; text-decoration: none; font-weight: bold; transition: color 0.3s; padding-right: 10px;">Inicio</a>
+        <span style="color: #fff;">|</span>
+        <a href="menu.html" style="color: #fff; text-decoration: none; margin-left: 10px; margin-right: 10px; transition: color 0.3s;">Ver Menú</a>
+        <span style="color: #fff;">|</span>
+        <a href="contacto.html" style="color: #fff; text-decoration: none; margin-left: 10px; padding-left: 10px; transition: color 0.3s;">Contacto</a>
+    </div>
+    <div style="display: flex; align-items: center;">
+        <a href="https://www.facebook.com/" target="_blank" style="color: #fff; background-color: #1877f2; text-decoration: none; margin-right: 2%; padding: 5px 2%; border-radius: 5px;">Facebook</a>
+        <a href="https://www.instagram.com/" target="_blank" style="color: #fff; background-color: #e4405f; text-decoration: none; margin-right: 2%; padding: 5px 2%; border-radius: 5px;">Instagram</a>
+        <a href="https://api.whatsapp.com/send?phone=NUMERO_DE_WHATSAPP" target="_blank" style="color: #fff; background-color: #25d366; text-decoration: none; margin-right: 2%; padding: 5px 2%; border-radius: 5px;">WhatsApp</a>
+    </div>
+</nav>
+
+
+
+<section id="contactenos"> <!-- Se le agrega un id para identificar y editarlo con css más adelante -->
+    <div style="text-align: center;">
+        
+        <img src="img/img_contacto.png" alt="Imagen de contacto" style="width: 100%; height: auto;">
+        <h2 style="font-size: 24px;">SERA UN PLACER ATENDERTE</h2>
+    </div> 
+    <div style="display: flex;">
+        <div style="width: 50%;">
+            <h3>Formulario de Contacto</h3>
+            <form>
+                <table cellpadding="5" cellspacing="0">
+                    <tr>
+                        <td><label for="nombre">Nombre completo:</label></td>
+                        <td><input type="text" id="nombre" name="nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefono">Teléfono:</label></td>
+                        <td><input type="tel" id="telefono" name="telefono" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="correo">Correo electrónico:</label></td>
+                        <td><input type="email" id="correo" name="correo" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="evento">Tipo de evento:</label></td>
+                        <td><input type="text" id="evento" name="evento" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cantidad">Cantidad de personas:</label></td>
+                        <td><input type="number" id="cantidad" name="cantidad" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fecha">Fecha del evento:</label></td>
+                        <td><input type="date" id="fecha" name="fecha" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mensaje">Mensaje:</label></td>
+                        <td><textarea id="mensaje" name="mensaje" rows="4" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;"><button type="submit">Enviar mensaje</button></td>
+                    </tr>
+                </table>
+            </form>
+            
+        </div>
+        <div style="width: 50%; padding-left: 20px;">
+            <h3>BANQUETES SAN FRANCISCANOS</h3>
+            <p>Somos una empresa con más de 10 años de experiencia, dedicada al catering individual y empresarial, siendo los pioneros en la categoría, tanto en platillos típicos como en platillos más convencionales.</p>
+            <p>Póngase en contacto con cualquiera de nuestros ejecutivos para una atención personalizada. Usted y su evento son nuestra prioridad, le atenderemos a la brevedad posible.</p>
+        </div>
+    </div>
+</section>
+<footer style="background-color: #333; color: #fff; text-align: center; padding: 20px;">
+    <p>&copy; 2024 Tienda de Comida San Franciscana | Dirección: Barrio el Centro de San Francisco |<br> Teléfono: 45260536 | Email: ilmeriomar@gmail.com </p>
+    <p>Síguenos en:
+        <a href="https://www.facebook.com/" target="_blank" style="color: #fff; text-decoration: none; margin-right: 10px;">Facebook</a>
+        <a href="https://www.instagram.com/" target="_blank" style="color: #fff; text-decoration: none; margin-right: 10px;">Instagram</a>
+        <a href="https://api.whatsapp.com/send?phone=NUMERO_DE_WHATSAPP" target="_blank" style="color: #fff; text-decoration: none; margin-right: 10px;">WhatsApp</a>
+
+    </p>
+</footer>
+
+</body>
+</html>
+   
+  

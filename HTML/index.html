@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Comida</title>
+    <style>
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        section, nav {
+            margin-bottom: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #d35400;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+          
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .map-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .map {
+            width: 100%;
+            height: 300px; /* TAMAÑO DEL MAPA */
+        }
+    </style>
+</head>
+<body>
+    <nav style="height: 50px; background-color: #3498db; display: flex; justify-content: space-between; align-items: center; padding: 0 5%;">
+        <div style="display: flex; align-items: center;">
+            <a href="index.html" style="color: #fff; text-decoration: none; font-weight: bold; transition: color 0.3s; padding-right: 10px;">Inicio</a>
+            <span style="color: #fff;">|</span>
+            <a href="menu.html" style="color: #fff; text-decoration: none; margin-left: 10px; margin-right: 10px; transition: color 0.3s;">Ver Menú</a>
+            <span style="color: #fff;">|</span>
+            <a href="contacto.html" style="color: #fff; text-decoration: none; margin-left: 10px; padding-left: 10px; transition: color 0.3s;">Contacto</a>
+        </div>
+        <div style="display: flex; align-items: center;">
+            <a href="https://www.facebook.com/" target="_blank" style="color: #fff; background-color: #1877f2; text-decoration: none; margin-right: 2%; padding: 5px 2%; border-radius: 5px;">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank" style="color: #fff; background-color: #e4405f; text-decoration: none; margin-right: 2%; padding: 5px 2%; border-radius: 5px;">Instagram</a>
+            <a href="https://api.whatsapp.com/send?phone=NUMERO_DE_WHATSAPP" target="_blank" style="color: #fff; background-color: #25d366; text-decoration: none; margin-right: 2%; padding: 5px 2%; border-radius: 5px;">WhatsApp</a>
+        </div>
+    </nav>
+    
+    
+    
+    
+       
+    
+
+    
+    <!-- Página principal -->
+    <section id="pagina-principal"> <!-- se le coloca un id para poder identificarlo y no perderme a la hora de revisar el codigo -->
+        <section id="Texto-principal"> <!-- inicia la seccion del texto principal  -->
+            <h1 style="text-align: center; font-size: 30px;">Bienvenido a Nuestra Tienda de Comida</h1>
+            <p>Saborea la auténtica esencia de San Francisco con nuestra exquisita selección de comidas típicas. Desde asados y pollo horneado hasta los platillos más conocidos y deliciosos de la región.</p>
+            
+            <p>No te pierdas nuestras conservas caseras de nance, jocote y otros bocadillos típicos que deleitarán tu paladar y te transportarán a la riqueza gastronómica de nuestra tierra.</p>
+            
+            <p>Además, ofrecemos un servicio de entregas a domicilio exclusivo para aquellos que desean disfrutar de nuestros manjares en la comodidad de su hogar. Recuerda hacer tu reserva con antelación para asegurar una experiencia culinaria inolvidable.</p>
+    
+            <p>¿Planeas un evento especial? ¡Estamos aquí para hacerlo memorable! Ofrecemos servicios de catering para eventos en cualquier lugar de Guatemala. Ponte en contacto con nosotros a través de nuestro formulario o nuestras redes sociales para discutir cómo podemos hacer de tu evento una experiencia gastronómica única.</p>
+    
+            <a href="menu.html" style="color: #3498db; text-decoration: none; font-weight: bold; margin-right: 20px; text-align: center;">Ver Menú</a>
+            <a href="contacto.html" style="color: #3498db; text-decoration: none; font-weight: bold; text-align: center;">Contacto</a>
+           
+        </section>
+        <!-- Imagen Principal de la Pagina de Inicio -->
+        <img src="img/Municipio-de-San-Francisco-Petén..jpg" alt="Imagen Principal">
+        
+
+        <!-- Mapa de Google Maps -->
+       
+         <div class="map-container">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.3906742104597!2d-89.91814268577082!3d16.92213733717412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858c8da0d42560e1%3A0xf389fb4500f0b383!2sSan%20Francisco%2C%20Peten%2C%20Guatemala!5e0!3m2!1ses-419!2sni!4v1678330789787!5m2!1ses-419!2sni" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 20px;">
+        <p>&copy; 2024 Tienda de Comida San Franciscana | Dirección: Barrio el Centro de San Francisco |<br> Teléfono: 45260536 | Email: ilmeriomar@gmail.com </p>
+        <p>Síguenos en:
+            <a href="https://www.facebook.com/" target="_blank" style="color: #fff; text-decoration: none; margin-right: 10px;">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank" style="color: #fff; text-decoration: none; margin-right: 10px;">Instagram</a>
+            <a href="https://api.whatsapp.com/send?phone=NUMERO_DE_WHATSAPP" target="_blank" style="color: #fff; text-decoration: none; margin-right: 10px;">WhatsApp</a>
+        </p>
+    </footer>
+    
+
+</body>
+</html>

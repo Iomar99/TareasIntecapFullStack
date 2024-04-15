@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+
+</head>
+<body>
+    <h1>Programa que pida al usuario si va a viajar con auto, tren, biclicleta, moto, o autobus</h1>
+
+    <h3> Por favor seleccione un medio de transporte</h3>
+
+    <form id="formularioViaje">
+        <input type="radio" id="auto" name="transporte" value="auto">
+        <label for="auto">Auto</label><br>
+        <input type="radio" id="tren" name="transporte" value="tren">
+        <label for="tren">Tren</label><br>
+        <input type="radio" id="bicicleta" name="transporte" value="bicicleta">
+        <label for="bicicleta">Bicicleta</label><br>
+        <input type="radio" id="motocicleta" name="transporte" value="motocicleta">
+        <label for="motocicleta">Motocicleta</label><br>
+        <input type="radio" id="autobus" name="transporte" value="autobus">
+        <label for="autobus">Autobús</label><br><br>
+        <button type="button" onclick="verificarTransporte()">Enviar</button>
+      </form>
+    <p id="respuesta2"></p>
+    <script src="../scrip.js"></script>
+    
+</body>
+</html>

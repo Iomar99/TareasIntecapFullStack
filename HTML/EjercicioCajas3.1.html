@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de CSS externo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <style>
+.caja1 {
+    margin: 10px;
+   
+    border-left: 2px dashed blue; /* Borde izquierdo punteado azul */
+    border-top: 2px dotted green; /* Borde superior punteado verde */
+    border-bottom: 2px dotted red; /* Borde inferior punteado rojo */
+    border-right: 2px dashed yellow; /* Borde derecho punteado amarillo */
+}
+
+
+.caja2 {
+    margin: 10px;
+    border-left: 4px solid black; /* Borde izquierdo negro, más grueso */
+    border-top: 2px solid aqua; /* Borde superior color aqua */
+    border-bottom: 2px solid lightpink; /* Borde inferior color rosa palido */
+    border-right: 4px solid black; /* Borde derecho negro, más grueso */
+}
+
+.caja3 {
+
+    margin: 2px;
+    border: 1px solid black;
+    text-align: center;
+
+    
+}
+
+    </style>
+
+
+
+    <div class="caja1">Esta es una caja con diferentes tipos de bordes</div>
+    <div class="caja2">Esta es otra caja con diferentes tipos de bordes</div>
+    <div class="caja1">
+        <div class="caja2">Esta es una caja con diferentes tipos de bordes dentro de otra caja</div>
+    </div>
+    <div class="caja3">
+        <div class="caja3">
+            <div class="caja3">
+                <div class="caja3">
+                    <div class="caja3">
+                        <div class="caja3">
+                            Estas son cajas dentro de cajas
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

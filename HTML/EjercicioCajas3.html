@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de CSS externo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <style>
+        .caja1 {
+            margin: 10px;
+    /* No se aplica relleno */
+    border: 2px solid red; /* Borde rojo */
+}
+
+.caja2 {
+    margin: 10px;
+    padding: 25px; /* Se aplica un relleno de 25px */
+    border: 2px solid blue; /* Borde azul */
+}
+
+.caja3 {
+    margin: 10px;
+    padding: 50px; /* Se aplica un relleno de 50px */
+    border: 2px solid green; /* Borde verde */
+}
+
+    </style>
+
+
+
+
+    <div class="caja1">
+        Esta es una caja sin relleno
+    </div>
+    <div class="caja2">
+        Esta es una caja con 25px de relleno
+    </div>
+    <div class="caja3">
+        Esta es una caja con 50px de relleno
+    </div>
+</body>
+</html>

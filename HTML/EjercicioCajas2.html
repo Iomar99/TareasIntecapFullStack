@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de CSS externo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <style>
+        .contenedor {
+    width: 600px; /* Ancho del contenedor */
+    height: 300px; /* Alto del contenedor */
+    border: 2px solid red; /* Borde cuadrado color rojo */
+    position: relative;
+}
+
+
+
+.caja1 {
+    margin: 10px;
+    left: 10px;
+    width: 300px;
+    border: 2px solid green; /* Borde verde */
+}
+
+.caja2 {
+    margin-left: 50px;
+    width: 300px;
+    left: calc(50% + 50px); /* 50% del ancho del contenedor + 50px de margen izquierdo */
+    border: 2px solid blue; /* Borde azul */
+}
+
+.caja3 {
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 300px;
+    left: calc(50% + 100px); /* 50% del ancho del contenedor + 100px de margen izquierdo */
+    border: 2px solid yellow; /* Borde amarillo */
+}
+
+    </style>
+
+
+    <div class="contenedor">
+        <div class="caja caja1">Esta es una caja con 50% de ancho y 10px desde la parte superior e izquierda dentro de un contenedor</div>
+        <div class="caja caja2">Esta es una caja con 50% de ancho y 10px desde la parte superior y 50px a la izquierda dentro de un contenedor</div>
+        <div class="caja caja3">Esta es una caja con 50% de ancho y 10px desde la parte superior y 100px a la izquierda dentro de un contenedor</div>
+    </div>
+</body>
+</html>

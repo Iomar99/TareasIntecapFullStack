@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <style>
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        section, nav {
+            margin-bottom: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #d35400;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        li {
+            margin-bottom: 20px;
+            flex: 0 0 calc(33.33% - 20px);
+            max-width: calc(33.33% - 20px);
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 0;
+            text-align: center;
+        }
+
+        .precio {
+            color: #27ae60;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav style="height: 50px; background-color: #3498db; display: flex; justify-content: space-between; align-items: center; padding: 0 5%;">
+        <div style="display: flex; align-items: center;">
+            <a href="index.html" style="color: #fff; text-decoration: none; font-weight: bold; transition: color 0.3s; padding-right: 10px;">Inicio</a>
+            <span style="color: #fff;">|</span>
+            <a href="menu.html" style="color: #fff; text-decoration: none; margin-left: 10px; margin-right: 10px; transition: color 0.3s;">Ver Menú</a>
+            <span style="color: #fff;">|</span>
+            <a href="contacto.html" style="color: #fff; text-decoration: none; margin-left: 10px; padding-left: 10px; transition: color 0.3s;">Contacto</a>
+        </div>
+        <div style="display: flex; align-items: center;">
+            <a href="https://www.facebook.com/" target="_blank" style="color: #fff; background-color: #1877f2; text-decoration: none; margin-right: 2%; padding: 5px 2%; border-radius: 5px;">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank" style="color: #fff; background-color: #e4405f; text-decoration: none; margin-right: 2%; padding: 5px 2%; border-radius: 5px;">Instagram</a>
+            <a href="https://api.whatsapp.com/send?phone=NUMERO_DE_WHATSAPP" target="_blank" style="color: #fff; background-color: #25d366; text-decoration: none; margin-right: 2%; padding: 5px 2%; border-radius: 5px;">WhatsApp</a>
+        </div>
+    </nav>
+
+
+    <!-- Menú -->
+    <section id="menu">
+        <h2 style="text-align: center;">Menú</h2>
+        <ul style="justify-content: center;">
+            <li>
+                <img src="img/comida1.jpg" alt="Comida 1" style="width: 90%; height: 150px;">
+                <p >Pepian de Pollo</p>
+                <p class="precio">Q 24.99</p>
+            </li>
+            <li>
+                <img src="img/comida2.jpg" alt="Comida 2" style="width: 90%; height: 150px;">
+                <p>Kakiq</p>
+                <p class="precio">Q 29.99</p>
+            </li>
+            <li>
+                <img src="img/comida3.jpg" alt="Comida 3" style="width: 90%; height: 150px;">
+                <p>Platano en Mole</p>
+                <p class="precio">Q 29.99</p>
+            </li>
+        </ul>
+        <!-- seccion de las comidas 4-6 -->
+        <ul style="justify-content: center;">
+            <li>
+                <img src="img/comida4.jpg" alt="Comida 4" style="width: 90%; height: 150px;">
+                <p>Fiambre</p>
+                <p class="precio">Q 34.99</p>
+            </li>
+            <li>
+                <img src="img/comida5.jpg" alt="Comida 5" style="width: 90%; height: 150px;">
+                <p>Pollo Horneado</p>
+                <p class="precio">Q 39.99</p>
+            </li>
+            <li>
+                <img src="img/comida6.jpg" alt="Comida 6" style="width: 90%; height: 150px;">
+                <p>Caldo de Gallina</p>
+                <p class="precio">Q 34.99</p>
+            </li>
+        </ul>
+
+        <ul style="justify-content: center;">
+            <li>
+                <img src="img/comida7.jpg" alt="Comida 4" style="width: 90%; height: 150px;">
+                <p>Carne Asada</p>
+                <p class="precio">Q 44.99</p>
+            </li>
+            <li>
+                <img src="img/comida8.jpg" alt="Comida 5" style="width: 90%; height: 150px;">
+                <p>Pinchos</p>
+                <p class="precio">Q 34.99</p>
+            </li>
+            <li>
+                <img src="img/comida9.jpeg" alt="Comida 6" style="width: 90%; height: 150px;">
+                <p>Huevos con Frijol</p>
+                <p class="precio">Q 24.99</p>
+            </li>
+        </ul>
+        <!-- Comienza la Seccion de las bebidas -->
+
+
+        <ul style="justify-content: center;">
+            <li>
+                <img src="img/bebida1.png" alt="Bebida 1" style="width: 90%; height: 250px;">
+                <p >Energi Uva</p>
+                <p class="precio">Q 10.00</p>
+            </li>
+            <li>
+                <img src="img/bebida2.png" alt="Bebida 2" style="width: 90%; height: 250px;">
+                <p>Energi Mora</p>
+                <p class="precio">Q 15.00</p>
+            </li>
+            <li>
+                <img src="img/bebida3.png" alt="Bebida 3" style="width: 90%; height: 250px;">
+                <p>Lima Limon Prime</p>
+                <p class="precio">Q 18.00</p>
+            </li>
+        </ul>
+ 
+        <ul style="justify-content: center;">
+            <li>
+                <img src="img/bebida4.png" alt="Bebida 4" style="width: 90%; height: 250px;">
+                <p>Zumo de Manzana</p>
+                <p class="precio">Q 10.00</p>
+            </li>
+            <li>
+                <img src="img/bebida5.png" alt="Bebida 5" style="width: 90%; height: 250px;">
+                <p>Agua Mineral</p>
+                <p class="precio">Q 15.00</p>
+            </li>
+            <li>
+                <img src="img/bebida6.png" alt="Bebida 6" style="width: 90%; height: 250px;">
+                <p>Pony Malta Botella</p>
+                <p class="precio">Q 18.00</p>
+            </li>
+        </ul>
+        
+        <ul style="justify-content: center;">
+            <li>
+                <img src="img/bebida7.png" alt="Bebida 7" style="width: 90%; height: 250px;">
+                <p>Jugo de Manzana</p>
+                <p class="precio">Q 10.00</p>
+            </li>
+            <li>
+                <img src="img/bebida8.png" alt="Bebida 8" style="width: 90%; height: 250px;">
+                <p>Naranja 0</p>
+                <p class="precio">Q 15.00</p>
+            </li>
+            <li>
+                <img src="img/bebida9.png" alt="Bebida 9" style="width: 90%; height: 250px;">
+                <p>2 Lts Gaseosa de Limon</p>
+                <p class="precio">Q 18.00</p>
+            </li>
+        </ul>
+        
+        
+
+    </section> 
+        
+    </section>
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 20px;">
+        <p>&copy; 2024 Tienda de Comida San Franciscana | Dirección: Barrio el Centro de San Francisco |<br> Teléfono: 45260536 | Email: ilmeriomar@gmail.com </p>
+        <p>Síguenos en:
+            <a href="https://www.facebook.com/" target="_blank" style="color: #fff; text-decoration: none; margin-right: 10px;">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank" style="color: #fff; text-decoration: none; margin-right: 10px;">Instagram</a>
+            <a href="https://api.whatsapp.com/send?phone=NUMERO_DE_WHATSAPP" target="_blank" style="color: #fff; text-decoration: none; margin-right: 10px;">WhatsApp</a>
+        </p>
+    </footer>
+
+</body>
+</html>

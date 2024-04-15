@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/DC25FA7F3F.js" crossorigin="anonymous"></script>
+    </head>
+    
+<body>
+    <header>
+        <div class="container">
+            <h1>Illmer Aldana </h1>
+            <p>Fullstack Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- seccion de acerca de mi  -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <table class="about-table">
+                <tr>
+                    <td>
+                        <img src="Imagenes/Iconos/pantalla-del-ordenador.png" alt="Icono 1">
+                        <h3>Desarrollo de Software</h3>
+                        <p>Experiencia en desarrollo de aplicaiones de escritorio, conocimiento en POO, Python, Java, C++, Visual.net
+                        </p>
+                    </td>
+                    <td>
+                        <img src="Imagenes/Iconos/React-icon.svg.png" alt="Icono 2">
+                        <h3>Desarrollo Frontend</h3>
+                        <p>Apasionado por el desarrollo Frontend, experiencia en creacion de páginas web con html y css.</p>
+                    </td>
+                    <td>
+                        <img src="Imagenes/Iconos/icono fluter.png" alt="Icono 3">
+                        <h3>Desarrollo con  Flutter</h3>
+                        <p>Experiencia en desarrollo de aplicaciones moviles tanto para android como para Ios y soluciones multiplataformas utilizando Flutter.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+<!-- fin de la seccion de acerca de mi  -->
+
+
+<section id="portfolio" class="section">
+    <div class="container">
+        <h2>Portafolio</h2>
+        <div class="project-cards">
+            <div class="project-card">
+                <img src="Imagenes/Proyectos/Proyecto1.png" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Pagina Web de Power Electric para mostrar los servicios de un IngenieroElectrico</p>
+                <a href="../index.html">Ver más</a>
+            </div>
+            <div class="project-card">
+                <img src="Imagenes/Proyectos/Proyecto2.png" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Pagina Web de Una tienda de comida san franciscana, con precios de productos y alimentos disponibles. </p>
+                <a href="../HTML/index.html">Ver más</a>
+            </div>
+            <!-- Agrega más tarjetas de proyecto según sea necesario -->
+        </div>
+    </div>
+</section>
+
+
+    <!-- SECCION DE CONTACTO  -->
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+            <div class="social-links">
+                <h3>Sígueme en redes sociales:</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Illmer Aldana. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
